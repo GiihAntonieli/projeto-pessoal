@@ -155,7 +155,8 @@ section > a:hover{
 .tapioca{
     width: 400px;
     height: 300px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px ;
 }
 .rnutri h1{
     margin: 10px;
