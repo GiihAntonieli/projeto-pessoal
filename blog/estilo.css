@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --cor0--: white;
+    --cor1--: #333333;
+    --cor2--: #666699;
+    --cor3--: #ff9900; 
+    --cor4--: #acacac;
+    --cor5--: #69696A;
+    --cor6--: #2EDB51;
+    --fontealternativa--: 'Asap',sans-serif;
+    --fontepadrao--: 'Arial',sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor0--);
+    font-family: var(--fontepadrao--);
+}
+header{
+    background-color: var(--cor1--);
+    min-height: 150px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.568);
+    
+}
+nav{
+    background-color: var(--cor1--);
+    text-align: center;
+    padding-bottom: 10px;
+    
+
+}
+a{
+   margin: 50px;
+   padding: 15px;
+   text-decoration: none;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1em;
+   font-weight: bold;
+   border-radius: 5px;
+   transition-duration: 0.5s;
+}
+nav > a:hover{
+    background-color: var(--cor3--);
+    color: black;
+
+}
+
+img{
+  display: block;
+  margin: auto; 
+  margin-top: -37px;
+  margin-bottom: -44px;
+  padding: 0px;
+  max-width: 200px;
+  min-width: 50px;
+  max-height: 224px;
+  min-height: 50px;
+}
+main{
+    background-color: var(--cor0--);
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    min-width: 300px;
+    max-width: 1350px;
+
+}
+main img{
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    padding: 0px;
+    
+    
+    
+}
+main{
+    background-color: var(--cor0--);
+    padding: 20px;
+    margin: auto;
+    margin-top: 37px;
+    min-width: 300px;
+    max-width: 1235px;
+
+}
+.menu{
+    margin: -57px 0px;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    padding-left: 0px;
+    min-width: 0px;
+    background-color: var(--cor2--);
+}
+section > a{
+    margin: 99px;
+    padding: 9px;
+    min-width: 0px;
+    max-width: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+
+}
+section > a:hover{
+    color: var(--cor0--);
+}
+.homecont{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: var(--cor4--);
+    border-radius: 15px;
+    max-width: 1200px;
+    min-width: 500px;
+}
+
+/* Conteúdo*/
+
+.homecont h1{
+    margin: 30px;
+    margin-top: 0px;
+    font-family: var(--fontealternativa--);
+    font-size: 2em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+    color
+}
+.homecont a{
+    margin: 10px 0px;
+    margin-bottom: 10px;
+}
+.homecont img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.623);
+}
+
+/* Academia*/
+
+/*nutrição*/
+
+.rnutri{
+    margin: 10px;
+    padding: 60px;
+    background-color: var(--cor5--);
+    border-radius: 20px;
+}
+.tapioca{
+    width: 400px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+.rnutri h1{
+    margin: 10px;
+    border: 2px solid var(--cor3--);
+    margin: 15px 0px;
+    width: 410px;
+    border-radius: 10px; 
+    color: var(--cor0--);
+} 
+.rnutri h2{
+    margin: 15px;
+}
+span{
+    margin: 10px;
+}
+.rnutri .check{
+    margin: 5px;
+}
+li{
+    font-family: var(--fontepadrao--);
+}
+.rnutri ol{
+    margin: 18px;
+    border: 2px solid var(--cor3--);
+    width: 1000px;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+footer{
+    background-color: var(--cor1--);
+    margin: 0px;
+    padding: 60px;
+    padding-bottom: 218px;
+    
+}
+footer h2{
+    color: var(--cor0--);
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+footer h3{
+    color: var(--cor0--);
+    margin: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+footer p{
+    color: var(--cor0--);
+    margin: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.redes{
+    margin: 0px;
+    padding: 0px;
+}

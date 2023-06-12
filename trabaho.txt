@@ -1,0 +1,75 @@
+CORES
+vermelho : #DB1A20
+cinza escuro: #2E3333
+cinza claro: #616666
+-
+cinza: #333333
+borda: #666699
+branco: #ffffff
+amarelo alaranjado: #ff9900
+
+-
+<section>
+                <div class="title">
+                    <h2>Aulas e treinos exclusivos</h2>
+                </div>
+                <ul type="none">
+                    <li>
+                        <div class="card">
+                            <img src="img/musulaçao.jpg" alt="Musculação" class="card-img">
+                            <div class="card-header">
+                                <h3>MUSCULAÇÃO</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>Exercícios e grupos musculares que podem ser trabalhados em um único treino.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+
+
+
+
+            .title{
+    margin: 30px;
+    padding: 0px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    background-color: #666699;
+    max-width: 285px;
+    min-height: 500px;
+    border-radius: 15px;
+}
+.card-img{
+    display: flex;
+    max-width: 285px;
+    height: 190px;
+    border-radius: 15px 15px 0px 0px;
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    margin: 190px -224px;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor3--);
+    
+
+}
+.card-content{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0px 0px;
+}
+
+
+
